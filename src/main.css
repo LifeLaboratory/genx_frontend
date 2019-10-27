@@ -1,45 +1,67 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
 .map {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 .map_image {
   width: 100%;
   height: 80vh;
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+}
 
 .node {
   width: 30px;
   height: 30px;
   z-index: 2;
-  position: absolute; }
-  .node__black {
-    border: 0.5px black solid;
-    fill: #363636;
-    animation: shadows_def 2s linear infinite; }
-  .node-controller {
-    margin-top: 130px; }
-  .node__default {
-    fill: #ccc;
-    animation: shadows_def 2s linear infinite; }
-  .node__green {
-    fill: #34e048; }
-  .node__red {
-    fill: #e83636; }
-  .node-one {
-    margin-top: 180px;
-    margin-left: -255px; }
-  .node-two {
-    margin-top: 230px;
-    margin-left: -150px; }
-  .node-free {
-    margin-top: 230px;
-    margin-left: 100px; }
-  .node-four {
-    margin-top: 100px;
-    margin-left: 140px; }
+  position: absolute;
+}
+
+.node__black {
+  border: 0.5px black solid;
+  fill: #363636;
+  animation: shadows_def 2s linear infinite;
+}
+
+.node-controller {
+  margin-top: 130px;
+}
+
+.node__default {
+  fill: #ccc;
+  animation: shadows_def 2s linear infinite;
+}
+
+.node__green {
+  fill: #34e048;
+}
+
+.node__red {
+  fill: #e83636;
+}
+
+.node-one {
+  margin-top: 180px;
+  margin-left: -255px;
+}
+
+.node-two {
+  margin-top: 230px;
+  margin-left: -150px;
+}
+
+.node-free {
+  margin-top: 230px;
+  margin-left: 100px;
+}
+
+.node-four {
+  margin-top: 100px;
+  margin-left: 140px;
+}
 
 .tracerLine {
   border: none;
@@ -50,7 +72,8 @@
   width: 200px;
   position: absolute;
   z-index: 2;
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+}
 
 .console {
   background: black;
@@ -58,45 +81,62 @@
   width: 100%;
   height: 20vh;
   z-index: 3;
-  border-left: 2px solid white;
-  border-right: 2px solid white;
-  border-bottom: 2px solid white; }
-  .console__text-container {
-    padding: 5px 10px 5px 10px; }
-  .console__text {
-    padding-top: 5vh;
-    text-align: center;
-    font-size: 42px;
-    color: white; }
-  .console__input {
-    font-size: 24px; }
+}
+
+.console__text-container {
+  padding: 5px 10px 5px 10px;
+}
+
+.console__text {
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 42px;
+  color: white;
+}
+
+.console__input {
+  font-size: 24px;
+}
 
 html, body, * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+}
 
 image {
-  z-index: 10; }
+  z-index: 10;
+}
 
 circle {
-  z-index: 2; }
+  z-index: 2;
+}
 
 line {
-  z-index: 1; }
+  z-index: 1;
+}
 
 .hidden {
   opacity: 0 !important;
-  visibility: hidden !important; }
+  visibility: hidden !important;
+}
 
 .disabled {
-  display: none !important; }
+  display: none !important;
+}
 
 .svg {
   border-top: 2px solid white;
   border-left: 2px solid white;
   border-right: 2px solid white;
-  z-index: 2; }
+  z-index: 2;
+}
+
+.shadow {
+  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .8));
+  /* Similar syntax to box-shadow */
+}
 
 /*# sourceMappingURL=main.css.map */
