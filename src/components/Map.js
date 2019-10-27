@@ -113,16 +113,98 @@ function Map(props) {
 
 
                     <g id="g-rows--d">
-                        <line x1="50" y1="20" x2="40" y2="50" stroke="blue"/>
+                        <line x1="50" y1="20" x2="40" y2="50" stroke="blue">
+                            <animate 
+                                attributeName="x2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="50; 40" 
+                                fill="freeze" 
+                            />
+
+                            <animate 
+                                attributeName="y2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="20; 50" 
+                                fill="freeze" 
+                            />
+                        </line>
                         <line x1="41" y1="47" x2="39" y2="41" stroke="blue"/>
                         <line x1="41" y1="47" x2="46" y2="43" stroke="blue"/>
                     </g>
 
                     <g id="g-rows--d-lines">
-                        <line x1="50" y1="20" x2="0" y2="30" stroke="blue" strokeDasharray={"3"}/>
-                        <line x1="50" y1="20" x2="40" y2="50" stroke="blue" strokeDasharray={"3"}/>
-                        <line x1="50" y1="20" x2="90" y2="50" stroke="blue" strokeDasharray={"3"}/>
-                        <line x1="50" y1="20" x2="90" y2="10" stroke="blue" strokeDasharray={"3"}/>
+                        <line x1="50" y1="20" x2="0" y2="30" stroke="blue" strokeDasharray={"3"}>
+                            <animate 
+                                attributeName="x2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="50; 0" 
+                                fill="freeze" 
+                            />
+
+                            <animate 
+                                attributeName="y2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="20; 30" 
+                                fill="freeze" 
+                            />
+                        </line>
+                        <line x1="50" y1="20" x2="40" y2="50" stroke="blue" strokeDasharray={"3"}>
+                            <animate 
+                                attributeName="x2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="50; 40" 
+                                fill="freeze" 
+                            />
+
+                            <animate 
+                                attributeName="y2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="20; 50" 
+                                fill="freeze" 
+                            />
+                        </line>
+                        <line x1="50" y1="20" x2="90" y2="50" stroke="blue" strokeDasharray={"3"}>
+                            <animate 
+                                attributeName="x2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="50; 90" 
+                                fill="freeze" 
+                            />
+
+                            <animate 
+                                attributeName="y2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="20; 50" 
+                                fill="freeze" 
+                            />
+                        </line>
+
+                        <line x1="50" y1="20" x2="90" y2="10" stroke="blue" strokeDasharray={"3"}>
+
+                            <animate 
+                                attributeName="x2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="50; 90" 
+                                fill="freeze" 
+                            />
+
+                            <animate 
+                                attributeName="y2" 
+                                dur="2s" 
+                                begin="1s"
+                                values="20; 10" 
+                                fill="freeze" 
+                            />
+                        </line>
                     </g>
 
 

@@ -17,11 +17,16 @@
     "extends": "react-app"
   },
   "babel": {
-    "presets": ["@babel/preset-react"],
+    "presets": [
+      "@babel/preset-react"
+    ],
     "plugins": [
-      ["@babel/transform-react-jsx", {
-        "throwIfNamespace": false
-      }]
+      [
+        "@babel/transform-react-jsx",
+        {
+          "throwIfNamespace": false
+        }
+      ]
     ]
   },
   "browserslist": {

@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MainContainer from "./container/MainContainer";
-import "./asdf/scss/main.css"
+import "./main.css"
 
 function App() {
     return (
